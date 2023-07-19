@@ -16,6 +16,7 @@ nav{
 }
   .logo p{
     display: flex;
+    text-transform: uppercase;
   }
 p>img{
     margin-right: 10px;
@@ -62,4 +63,98 @@ nav ul li a{
 .follow{
     padding-left: 24px;
    
+}
+.banner-container{
+    display: flex;
+    background-color: #FFFFFF;
+    text-align: center;
+
+}
+.text-container{
+  
+     width: 901px;
+     height: 100px;
+     
+    background-color: rgba(140, 87, 238, 0.05);
+    padding: 152px 484px 492px 69px;
+    margin-left: 150px;
+}
+.text-title{
+    color: #0B0223;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    text-transform: uppercase;
+
+}
+.goat{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 95px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #f948b2;
+}
+p{
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: lowercase;
+    font-family: 'Work Sans', sans-serif;
+    padding-left: 50px;
+}
+.img-container{
+    padding-left: 80px;
+}
+
+.sign,.go{
+   padding: 21px 40px;
+   gap: 10px;
+   margin-top: 10px;
+   border-radius: 48px;
+   border: none;
+ 
+}
+.sign{
+    color: rgba(255, 255, 255, 1);
+    background: #ff42a5;
+}
+.go{
+     color: #FFFFFF;
+     background: #4ec5f7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:576px) {
+    .logo p{
+        display: block;
+        flex-direction: column;
+    }
+    nav ul li a{
+        display: block;
+        /* flex-direction: column; */
+    }
+
+
 }
