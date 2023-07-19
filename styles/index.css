@@ -122,7 +122,57 @@ p{
      color: #FFFFFF;
      background: #4ec5f7;
 }
+.gamer-container{
+   display: flex;
+  background: linear-gradient(90deg,rgba(255,66,165,0.03) 0%, rgba(255,66,165,0.03%)100% );
+}
+.game-text{
+       text-align: right;
+       margin-right: 90px;
+}
+.gamer-img{
+    width: 400px;
+    height: 490px;
+    padding: 55px 812px 56px 90px;
+}
+.game-text-title{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    background: linear-gradient(180deg,#f948b2 0%, #8758f1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 150px;
+}
+.game-text-info{
+    color: #534C64;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 5px;
 
+}
+.sign{
+    margin-top: 30px;
+}
+.text-footer{
+    margin-top: 24px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 24px;  
+    font-weight: 500;
+    line-height: 45px;
+    color: #534C64;
+}
+#txt-fotter{
+    color: #534C64;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 45px;
+
+}
 
 
 
